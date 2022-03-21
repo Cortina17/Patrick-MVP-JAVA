@@ -40,7 +40,5 @@ public class UserPostServlet extends HttpServlet {
         } finally {
             out.close();
         }
-
     }
-
 }

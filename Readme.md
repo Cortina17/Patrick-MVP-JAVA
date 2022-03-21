@@ -1,12 +1,12 @@
 # Java Servlets
 
-Learning servlets in java
+Learning servlets in java by developing an e-commerce.
 
 ## Links
 
-- Apache Tomcat: <a href="https://tomcat.apache.org/whichversion.html">Apache Tomcat</a>
-- class HttpServletRequest doc: <a href="https://jakarta.ee/specifications/servlet/4.0/apidocs/javax/servlet/http/httpservletrequest">HttpServletRequest</a>
-- class HttpServletResponse doc: <a href="https://jakarta.ee/specifications/servlet/4.0/apidocs/javax/servlet/http/httpservletresponse">HttpServletRequest</a>
+- Apache Tomcat: <https://tomcat.apache.org/whichversion.html> Apache Tomcat
+- class HttpServletRequest doc: <https://jakarta.ee/specifications/servlet/4.0/apidocs/javax/servlet/http/httpservletrequest"> HttpServletRequest
+- class HttpServletResponse doc: <https://jakarta.ee/specifications/servlet/4.0/apidocs/javax/servlet/http/httpservletresponse"> HttpServletRequest
 
 ### Dependencies
 
