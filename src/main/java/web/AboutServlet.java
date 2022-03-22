@@ -18,18 +18,20 @@ public class AboutServlet extends HttpServlet {
 
         try {
 
-            out.println("<!DOCTYPE html>");
-            out.println("<html>");
-            out.println("<head>");
-            out.println("<meta http-equiv='Content-Type' content='text/html; charset=UTF-8'>");
-            out.println("<title>Servlet</title>");
-            out.println("</head>");
-            out.println("<body>");
-            out.println("<h1>About</h1>");
-            out.println("</body>");
-            out.println("</html>");
+            // out.println("<!DOCTYPE html>");
+            // out.println("<html>");
+            // out.println("<head>");
+            // out.println("<meta http-equiv='Content-Type' content='text/html; charset=UTF-8'>");
+            // out.println("<title>Servlet</title>");
+            // out.println("</head>");
+            // out.println("<body>");
+            // out.println("<h1>About</h1>");
+            // out.println("</body>");
+            // out.println("</html>");
 
             System.out.println(req.getRequestURL());
+
+            resp.sendRedirect("about.html");
             
         } catch (Exception e) {
             System.out.println("Error: " + e.getMessage());
